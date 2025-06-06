@@ -1,0 +1,31 @@
+/* Main Theme Colors */
+:root {
+    --primary-color: #8055a3;
+    --secondary-color: #b83b97;
+    --accent-color: #ffdcf6;
+}
+
+/* Example Usage */
+body {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}
+
+header {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+}
+
+button {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    border: 2px solid var(--secondary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+}
